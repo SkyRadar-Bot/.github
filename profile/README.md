@@ -1,12 +1,37 @@
-## Hi there 👋
+# ✈️ SkyRadar Bot
 
-<!--
+SkyRadar is a VATSIM-integrated Discord bot built for virtual pilots and ATC. It brings powerful flight simulation tools into your server — including live flight tracking, METAR/TAF weather, controller listings, and automated logging.
 
-**Here are some ideas to get you started:**
+> 🛰 Built for VATSIM, flight sim communities, and aviation Discords.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+---
+
+## 📦 Features
+
+- ✈️ `/track` – Track any flight by VATSIM callsign  
+- 📋 `/flightplan` – View the filed flight plan of a pilot  
+- 🧑‍✈️ `/myflight` – Check your own current VATSIM flight (via linked CID)  
+- 🔔 `/arrivalalert` – Get alerted when a callsign nears its destination  
+- 📜 `/metar` & `/taf` – Fetch real-world METAR/TAF weather data  
+- 📅 `/events` – Show upcoming official VATSIM events  
+- 🛢 `/fuelestimate` – Estimate fuel/time for a flight based on aircraft & distance  
+- 📊 `/flightstats` – View your flight history (flights tracked, date range)  
+- 🛫 `/airportinfo` – Show airport data: runways, elevation, frequencies  
+- 🛩 `/aircraftinfo` – Get info about any aircraft type (ICAO)
+
+---
+
+## 🧱 Tech Stack
+
+- **Discord.js v14**
+- **Prisma ORM**
+- **PostgreSQL** or **SQLite**
+- Axios for VATSIM & weather APIs
+- Modular command & event system
+
+---
+
+## 📃 License
+
+MIT © [SkyRadar Team](https://github.com/SkyRadar-Bot)
+
